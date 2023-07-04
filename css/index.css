@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
 /* UNIVERSAL */
 
@@ -7,6 +7,15 @@
         padding: 0;
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
+    }
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    .attribution a {
+        text-decoration: none;
+        color: hsl(228, 45%, 44%);
     }
 
 /* MEDIA QUERIES */
