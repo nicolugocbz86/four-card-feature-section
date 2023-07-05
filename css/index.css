@@ -44,19 +44,17 @@
                 font-size: 15px;
             }
 
-            span {
-                color: hsl(234, 12%, 34%);
-            }
-
         /* CLASS */
 
             .card,
+            .card-top,
             .card-bottom,
             .card-bottom div {
                 display: flex;
             }
 
             .card,
+            .card-top,
             .card-bottom,
             .card-bottom div {
                 flex-direction: column;
@@ -65,11 +63,20 @@
             .card {
                 width: 350px;
                 color: hsl(229, 6%, 66%);
+                gap: 1rem;
+            }
+
+            .card-top {
+                gap: .8rem;
+            }
+
+            .card-top span {
+                color: hsl(234, 12%, 34%);
             }
 
             .card-bottom {
                 padding: 0;
-                gap: 1rem;
+                gap: .8rem;
             }
 
             .card-bottom div {
