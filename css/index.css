@@ -94,7 +94,7 @@
                 gap: .8rem;
             }
 
-            .card-bottom div {
+            .card-bottom-cards {
                 height: 200px;
                 border-radius: .3rem;
                 text-align: left;
@@ -103,39 +103,65 @@
                 gap: .6rem;
             }
 
-            .card-bottom div:nth-child(1) {
-                border-top: .3rem solid hsl(180, 62%, 55%);
-            }
-            .card-bottom div:nth-child(2) {
-                border-top: .3rem solid hsl(0, 78%, 62%)
-            }
-            .card-bottom div:nth-child(3) {
-                border-top: .3rem solid hsl(34, 97%, 64%)
-            }
-            .card-bottom div:nth-child(4) {
-                border-top: .3rem solid hsl(228, 45%, 44%)
-            }
-
-            .card-bottom div h3 {
+            .card-bottom-cards h3 {
                 color: hsl(234, 12%, 34%);
             }
 
-            .card-bottom div p {
+            .card-bottom-cards p {
                 width: 92%;
             }
 
-            .card-bottom div img {
+            .card-bottom-cards img {
                 width: 14%;
                 align-self: self-end;
             }
+
         /* ID */
+
+            #center-column {
+                gap: .8rem;
+            }
+
+            #supervisor {
+                border-top: .3rem solid hsl(180, 62%, 55%);
+            }
+
+            #builder {
+                border-top: .3rem solid hsl(0, 78%, 62%)
+            }
+
+            #karma {
+                border-top: .3rem solid hsl(34, 97%, 64%)
+            }
+
+            #calculator {
+                border-top: .3rem solid hsl(228, 45%, 44%)
+            }
 
     }
 
     @media screen and (min-width: 401px) {
 
         /* TAGS */
+
+            body {
+                width: 1440px;
+                height: 922px;
+            }
+
         /* CLASS */
+
+            .card {
+                width: 100%;
+            }
+
+            .card-bottom {
+                display: grid;
+                grid-template-areas:
+                'builder';
+            }
+
         /* ID */
+
 
     }
