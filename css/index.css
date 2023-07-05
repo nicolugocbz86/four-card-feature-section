@@ -152,16 +152,29 @@
         /* CLASS */
 
             .card {
-                width: 100%;
+                margin: auto;
+                width: 70%;
+            }
+
+            .card-top p {
+                width: 50%;
             }
 
             .card-bottom {
-                display: grid;
-                grid-template-areas:
-                'builder';
+                height: 413px;
+                flex-direction: row;
+            }
+
+            .columns {
+                width: 100%;
             }
 
         /* ID */
+
+            #left-column,
+            #right-column {
+                justify-content: center;
+            }
 
 
     }
