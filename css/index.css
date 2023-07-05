@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
+.color {background-color: hsl(0, 78%, 62%);}
+.color {background-color: hsl(180, 62%, 55%);}
+.color {background-color: hsl(34, 97%, 64%);}
+.color {background-color: hsl(212, 86%, 64%);}
+.color {background-color: hsl(234, 12%, 34%);}
+.color {background-color: hsl(229, 6%, 66%);}
+.color {background-color: hsl(0, 0%, 98%);}
+
 /* UNIVERSAL */
 
     * {
@@ -23,7 +31,81 @@
     @media screen and (min-width: 0px) {
 
         /* TAGS */
+
+            body {
+                margin: auto;
+                width: 375px;
+                height: 1360px;
+                display: grid;
+                justify-content: center;
+                align-content: center;
+                gap: 1rem;
+                text-align: center;
+                font-size: 15px;
+            }
+
+            span {
+                color: hsl(234, 12%, 34%);
+            }
+
         /* CLASS */
+
+            .card,
+            .card-bottom,
+            .card-bottom div {
+                display: flex;
+            }
+
+            .card,
+            .card-bottom,
+            .card-bottom div {
+                flex-direction: column;
+            }
+
+            .card {
+                width: 350px;
+                color: hsl(229, 6%, 66%);
+            }
+
+            .card-bottom {
+                padding: 0;
+                gap: 1rem;
+            }
+
+            .card-bottom div {
+                height: 200px;
+                border-radius: .3rem;
+                text-align: left;
+                box-shadow: 0 .3rem .8rem .1rem hsl(229, 6%, 66%);
+                padding: 1.2rem;
+                gap: .6rem;
+            }
+
+            .card-bottom div:nth-child(1) {
+                border-top: .3rem solid hsl(180, 62%, 55%);
+            }
+            .card-bottom div:nth-child(2) {
+                border-top: .3rem solid hsl(0, 78%, 62%)
+            }
+            .card-bottom div:nth-child(3) {
+                border-top: .3rem solid hsl(34, 97%, 64%)
+            }
+            .card-bottom div:nth-child(4) {
+                border-top: .3rem solid hsl(228, 45%, 44%)
+            }
+
+            .card-bottom div h3 {
+                color: hsl(234, 12%, 34%);
+            }
+
+            .card-bottom div p {
+                width: 92%;
+            }
+
+            .card-bottom div img {
+                width: 14%;
+                align-self: self-end;
+            }
         /* ID */
 
     }
