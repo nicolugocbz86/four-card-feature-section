@@ -63,15 +63,30 @@
             .card {
                 width: 350px;
                 color: hsl(229, 6%, 66%);
-                gap: 1rem;
+                gap: 5rem;
             }
 
             .card-top {
-                gap: .8rem;
+                gap: .2rem;
+            }
+
+            .card-top h1,
+            .card-top span {
+                font-size: 1.6rem;
+            }
+
+            .card-top h1 {
+                font-weight: 200;
             }
 
             .card-top span {
                 color: hsl(234, 12%, 34%);
+                font-weight: 600;
+            }
+
+            .card-top p {
+                margin: auto;
+                width: 90%;
             }
 
             .card-bottom {
